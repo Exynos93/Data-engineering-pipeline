@@ -111,8 +111,8 @@ import requests
 from boto3 import client
 from configparser import ConfigParser
 
-def fetch_data_from_api(api_url):
- response = requests.get(api_url)
+def fetch_data_from_api(https://platform.openai.com/docs/api-reference/authentication):
+ response = requests.get([api_url](https://platform.openai.com/docs/api-reference/authentication))
  response.raise_for_status()
  return response.json()
 
